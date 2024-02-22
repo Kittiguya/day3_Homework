@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" </head>
 
 <body>
-    <h1 class="text-center" > <img src="WIZARD_KITTI.jpg" alt="" style="margin: 1%; padding-top: 1vh;"></h1>
+    <h1 class="text-center"> <img src="WIZARD_KITTI.jpg" alt="" style="margin: 1%; padding-top: 1vh;"></h1>
     <!-- I was struggling on remembering how to add padding and margins to the image at the top.
                 Wizard_Kiti is the logo i chose, couldnt generate a tag that said KILLUA  -->
     <div class="container" class="justify-content-center" style="width: 25rem; border: 1px solid rgb(22, 22, 21);">
@@ -29,7 +29,7 @@
                         <label for="inputPassword5" class="form-label">Password</label>
                     </div>
                     <div class="col text-end">
-                        <a href="#" class="">Forgot your Password?</a>
+                        <a href="#" class="text-decoration-none">Forgot your Password?</a>
                     </div>
                 </div>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
@@ -40,7 +40,10 @@
             <button class="btn btn-danger" type="button">Sign in</button>
             </h5>
             <p class="text-start">By continuing, you agree to Kittiguya's Conditions of Use and Privacy Notice.</p>
-            <p> Keep me signed in.</p>
+            <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"><p>Keep me signed in.</p></label><br>
+            </form>
             <div class="row">
                 <div class="col">
                     <hr>
@@ -73,4 +76,4 @@
     <div class="col">
         <hr>
     </div> 
-    Note for myself to return to later. Stackoverflow.com is a great resource  --> 
+    Note for myself to return to later. Stackoverflow.com is a great resource  -->
